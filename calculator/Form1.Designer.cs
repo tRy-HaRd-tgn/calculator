@@ -456,7 +456,7 @@ namespace calculator
             "время(в разработке)",
             "дата(в разработке)",
             "температура"});
-            this.listBox1.Location = new System.Drawing.Point(0, 35);
+            this.listBox1.Location = new System.Drawing.Point(0, 36);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(152, 459);
             this.listBox1.TabIndex = 27;

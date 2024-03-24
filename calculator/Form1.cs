@@ -1,4 +1,5 @@
-﻿using System;
+﻿using calculator;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,6 +11,7 @@ using System.Windows.Forms;
 
 namespace calculator
 {
+    
     public partial class Form1 : Form
     {
         double temp1;
@@ -456,11 +458,12 @@ namespace calculator
             if (listBox1.SelectedItem.ToString() == "температура")
             {
                 //в процессе
-                Form2 temperature= new Form2();
+                this.Hide();
+                Form temperature= new Form2();
                 temperature.StartPosition = FormStartPosition.Manual;
                 temperature.Location = Location;
-                temperature.Show();
-                this.Hide();
+                temperature.ShowDialog();
+                this.Close();
             }
         }
     }
