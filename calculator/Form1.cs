@@ -34,6 +34,21 @@ namespace calculator
 
         private void button20_Click(object sender, EventArgs e)
         {
+            if (richTextBox1.Text == "ошибка")
+            {
+                richTextBox1.Text = "1";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             string temp = richTextBox1.Text;
             if (temp == "0" || temp == "не число")
             {
@@ -57,8 +72,23 @@ namespace calculator
 
         private void button19_Click(object sender, EventArgs e)
         {
+            if (richTextBox1.Text == "ошибка")
+            {
+                richTextBox1.Text = "2";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             string temp = richTextBox1.Text;
-            if (temp == "0" || temp == "не число")
+            if (temp == "0" || temp == "не число" )
             {
                 richTextBox1.Text = "2";
                 button1.Visible = true;
@@ -80,6 +110,21 @@ namespace calculator
 
         private void button18_Click(object sender, EventArgs e)
         {
+            if (richTextBox1.Text == "ошибка")
+            {
+                richTextBox1.Text = "3";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             string temp = richTextBox1.Text;
             if (temp == "0" || temp == "не число")
             {
@@ -103,6 +148,21 @@ namespace calculator
 
         private void button16_Click(object sender, EventArgs e)
         {
+            if (richTextBox1.Text == "ошибка")
+            {
+                richTextBox1.Text = "4";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             string temp = richTextBox1.Text;
             if (temp == "0" || temp == "не число")
             {
@@ -126,6 +186,21 @@ namespace calculator
 
         private void button15_Click(object sender, EventArgs e)
         {
+            if (richTextBox1.Text == "ошибка")
+            {
+                richTextBox1.Text = "5";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             string temp = richTextBox1.Text;
             if (temp == "0" || temp == "не число")
             {
@@ -149,6 +224,21 @@ namespace calculator
 
         private void button14_Click(object sender, EventArgs e)
         {
+            if (richTextBox1.Text == "ошибка")
+            {
+                richTextBox1.Text = "6";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             string temp = richTextBox1.Text;
             if (temp == "0" || temp == "не число")
             {
@@ -172,6 +262,21 @@ namespace calculator
 
         private void button12_Click(object sender, EventArgs e)
         {
+            if (richTextBox1.Text == "ошибка")
+            {
+                richTextBox1.Text = "7";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             string temp = richTextBox1.Text;
             if (temp == "0" || temp == "не число")
             {
@@ -195,6 +300,21 @@ namespace calculator
 
         private void button11_Click(object sender, EventArgs e)
         {
+            if (richTextBox1.Text == "ошибка")
+            {
+                richTextBox1.Text = "8";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             string temp = richTextBox1.Text;
             if (temp == "0" || temp == "не число")
             {
@@ -213,12 +333,28 @@ namespace calculator
             else
             {
                 richTextBox1.Text += "8";
+                return;
             }
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             string temp = richTextBox1.Text;
+            if (richTextBox1.Text == "ошибка") 
+            {
+                richTextBox1.Text = "9";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             if (temp == "0" || temp == "не число")
             {
                 richTextBox1.Text = "9";
@@ -241,6 +377,21 @@ namespace calculator
 
         private void button23_Click(object sender, EventArgs e)
         {
+            if (richTextBox1.Text == "ошибка")
+            {
+                richTextBox1.Text = "0";
+                button1.Visible = true;
+                button8.Visible = true;
+                button7.Visible = true;
+                button6.Visible = true;
+                button5.Visible = true;
+                button9.Visible = true;
+                button13.Visible = true;
+                button17.Visible = true;
+                button24.Visible = true;
+                button22.Visible = true;
+                return;
+            }
             string temp = richTextBox1.Text;
             if (temp == "0" || temp == "не число")
             {
@@ -264,7 +415,7 @@ namespace calculator
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (richTextBox1.Text == "не число")
+            if (richTextBox1.Text == "не число" || richTextBox1.Text== "ошибка")
             {
                 button1.Visible = true;
                 button8.Visible = true;
@@ -285,7 +436,7 @@ namespace calculator
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (richTextBox1.Text == "не число")
+            if (richTextBox1.Text == "не число" || richTextBox1.Text== "ошибка")
             {
                 button1.Visible = true;
                 button8.Visible = true;
@@ -338,7 +489,7 @@ namespace calculator
 
         private void button21_Click(object sender, EventArgs e)
         {
-            if (richTextBox1.Text == "не число")
+            if (richTextBox1.Text == "не число" || richTextBox1.Text == "ошибка")
             {
                 richTextBox1.Text = "0";
                 button1.Visible = true;
@@ -368,8 +519,21 @@ namespace calculator
             }
             else if (temp_c == '/')
             {
-                richTextBox1.Text = (temp1 / temp2).ToString();
-               
+                if (temp2 == 0) 
+                {
+                    richTextBox1.Text = "ошибка";
+                    button1.Visible = false;
+                    button8.Visible = false;
+                    button7.Visible = false;
+                    button6.Visible = false;
+                    button5.Visible = false;
+                    button9.Visible = false;
+                    button13.Visible = false;
+                    button17.Visible = false;
+                    button24.Visible = false;
+                    button22.Visible = false;
+                }
+                else { richTextBox1.Text = (temp1 / temp2).ToString(); }
             }
             temp_c = ' ';
         }
@@ -378,7 +542,7 @@ namespace calculator
         {
             double aboba = double.Parse(richTextBox1.Text);
             richTextBox1.Text = Math.Sqrt(aboba).ToString();
-            if (richTextBox1.Text == "не число")
+            if (richTextBox1.Text == "не число" )
             {
                 button1.Visible = false;
                 button8.Visible = false;
@@ -402,6 +566,21 @@ namespace calculator
         private void button8_Click(object sender, EventArgs e)
         {
             double aboba = double.Parse(richTextBox1.Text);
+            if (aboba == 0.0)
+            {
+                richTextBox1.Text = "ошибка";
+                button1.Visible = false;
+                button8.Visible = false;
+                button7.Visible = false;
+                button6.Visible = false;
+                button5.Visible = false;
+                button9.Visible = false;
+                button13.Visible = false;
+                button17.Visible = false;
+                button24.Visible = false;
+                button22.Visible = false;
+                return;
+            }
             richTextBox1.Text = (1 / aboba).ToString();
         }
 

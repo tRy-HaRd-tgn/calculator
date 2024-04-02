@@ -456,9 +456,9 @@ namespace calculator
             "время(в разработке)",
             "дата(в разработке)",
             "температура"});
-            this.listBox1.Location = new System.Drawing.Point(0, 36);
+            this.listBox1.Location = new System.Drawing.Point(-1, 36);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(152, 459);
+            this.listBox1.Size = new System.Drawing.Size(153, 459);
             this.listBox1.TabIndex = 27;
             this.listBox1.Visible = false;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
@@ -498,6 +498,7 @@ namespace calculator
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Калькулятор";
